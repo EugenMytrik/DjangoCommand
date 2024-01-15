@@ -15,8 +15,7 @@ class Command(BaseCommand):
 
         for i in range(count):
             teacher = Teacher(
-                job = fake.job(),
+                job=fake.job(),
                 name=fake.name(),
-
             )
             teacher.save()
